@@ -16,7 +16,7 @@ import Table from '@views/dashboard/Table'
 const DashboardAnalytics = () => {
   return (
     <Grid container spacing={6}>
-      {/* <Grid item xs={12} md={4}>
+      <Grid item xs={12} md={4}>
         <Award />
       </Grid>
       <Grid item xs={12} md={8} lg={8}>
@@ -68,7 +68,7 @@ const DashboardAnalytics = () => {
       </Grid>
       <Grid item xs={12}>
         <Table />
-      </Grid> */}
+      </Grid>
     </Grid>
   )
 }
