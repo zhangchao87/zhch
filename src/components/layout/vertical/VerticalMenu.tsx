@@ -73,7 +73,7 @@ const VerticalMenu = ({ scrollMenu }: { scrollMenu: (container: any, isPerfectSc
           >
             CRM
           </MenuItem> */}
-          <MenuItem href='/'>Analytics</MenuItem>
+          <MenuItem href='/dashboard'>Analytics</MenuItem>
           {/* <MenuItem
             href={`${process.env.NEXT_PUBLIC_PRO_URL}/dashboards/ecommerce`}
             suffix={<Chip label='Pro' size='small' color='primary' variant='tonal' />}

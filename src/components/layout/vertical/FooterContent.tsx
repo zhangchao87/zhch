@@ -36,7 +36,7 @@ const FooterContent = () => {
           <Link href='https://themeselection.com' target='_blank' className='text-primary'>
             More Themes
           </Link>
-          <Link href={process.env.NEXT_PUBLIC_DOCS_URL || '/'} target='_blank' className='text-primary'>
+          {/* <Link href={process.env.NEXT_PUBLIC_DOCS_URL || '/'} target='_blank' className='text-primary'>
             Documentation
           </Link>
           <Link
@@ -45,7 +45,7 @@ const FooterContent = () => {
             className='text-primary'
           >
             Support
-          </Link>
+          </Link> */}
         </div>
       )}
     </div>

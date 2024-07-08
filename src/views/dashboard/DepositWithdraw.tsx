@@ -89,11 +89,11 @@ const DepositWithdraw = () => {
         <Grid item xs={12} md={6} className='border-be md:border-be-0 md:border-ie'>
           <CardHeader
             title='Deposit'
-            // action={
-            //   <Typography component={Link} className='font-medium' color='primary'>
-            //     View All
-            //   </Typography>
-            // }
+            action={
+              <Typography component={Link} className='font-medium' color='primary'>
+                View All
+              </Typography>
+            }
           />
           <CardContent className='flex flex-col gap-5'>
             {depositData.map((item, index) => (
@@ -117,11 +117,11 @@ const DepositWithdraw = () => {
         <Grid item xs={12} md={6}>
           <CardHeader
             title='Withdraw'
-            // action={
-            //   <Typography component={Link} className='font-medium' color='primary'>
-            //     View All
-            //   </Typography>
-            // }
+            action={
+              <Typography component={Link} className='font-medium' color='primary'>
+                View All
+              </Typography>
+            }
           />
           <CardContent className='flex flex-col gap-5'>
             {withdrawData.map((item, index) => (

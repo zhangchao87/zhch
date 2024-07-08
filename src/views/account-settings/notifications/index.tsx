@@ -59,7 +59,7 @@ const Notifications = () => {
         subheader={
           <>
             We need permission from your browser to show notifications.
-            {/* <Link className='text-primary'> Request Permission</Link> */}
+            <Link className='text-primary'> Request Permission</Link>
           </>
         }
       />

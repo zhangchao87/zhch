@@ -46,6 +46,14 @@
   "editor.linkedEditing": true,
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": [
-    "iconify"
+    "apexcharts",
+    "datas",
+    "deepmerge",
+    "iconify",
+    "MFILTERTOOLTIP",
+    "nextjs",
+    "openfilter",
+    "stylelint",
+    "tailwindcss"
   ]
 }

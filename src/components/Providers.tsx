@@ -12,6 +12,8 @@ import UpgradeToProButton from '@components/upgrade-to-pro-button'
 // Util Imports
 import { getMode, getSettingsFromCookie } from '@core/utils/serverHelpers'
 
+import '@/mocks'
+
 type Props = ChildrenType & {
   direction: Direction
 }
@@ -29,7 +31,7 @@ const Providers = (props: Props) => {
       <SettingsProvider settingsCookie={settingsCookie} mode={mode}>
         <ThemeProvider direction={direction}>
           {children}
-          <UpgradeToProButton />
+          {/* <UpgradeToProButton /> */}
         </ThemeProvider>
       </SettingsProvider>
     </VerticalNavProvider>
